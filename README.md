@@ -26,14 +26,14 @@ Add the Maven dependency:
 	
     <artifactId>elasticsearch</artifactId>
     
-    <version>5.x</version>
+    <version>5.6.0</version>
     
 </dependency>
 
 
-spring-boot-starter-elasticsearch  	elasticsearch
+spring-boot-starter-elasticsearch  			elasticsearch
 
-1.0.0           5.6.0
+1.0.0     		      5.6.0
 
 Document：
 
