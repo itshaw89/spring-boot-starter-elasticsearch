@@ -24,12 +24,17 @@ Add the Maven dependency:
 
 
 spring-boot-starter-elasticsearch  	elasticsearch
+
 1.0.0           5.6.0
 
 Document：
+
 @Data
+
 @NoArgsConstructor
+
 @AllArgsConstructor
+
 public class Document {
 
 	@Size(max = 50)
