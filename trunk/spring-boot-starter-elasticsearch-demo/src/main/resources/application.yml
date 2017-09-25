@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: elascticsearch-demo
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 10.50.115.14:9200
+      scheme: http
+      maxRetryTimeoutMillis: 20000
+      socketTimeout: 10000
+      header: key:value,test:test
