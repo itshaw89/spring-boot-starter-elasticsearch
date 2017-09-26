@@ -30,7 +30,7 @@ Add the Maven dependency:
     
 </dependency>
 
-
+version：
 	spring-boot-starter-elasticsearch  			elasticsearch
 
 	1.0.0     		      5.6.0
