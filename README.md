@@ -31,29 +31,29 @@ Add the Maven dependency:
 </dependency>
 
 
-spring-boot-starter-elasticsearch  			elasticsearch
+	spring-boot-starter-elasticsearch  			elasticsearch
 
-1.0.0     		      5.6.0
+	1.0.0     		      5.6.0
 
 default config：
 
 	spring:
 
-  		data:
+  	    data:
   
-    			elasticsearch:
+    		elasticsearch:
     
-      				cluster-name: elasticsearch
+      		    cluster-name: elasticsearch
       
-      				cluster-nodes: localhost:9200
+      		    cluster-nodes: localhost:9200
       
-      				scheme: http
+      		    scheme: http
       
-      				maxRetryTimeoutMillis: 10000
+      		    maxRetryTimeoutMillis: 10000
       
-      				socketTimeout: 10000
+      		    socketTimeout: 10000
       
-      				header: key:value,key2:value2
+      		    header: key:value,key2:value2
       
 
 Document：
