@@ -35,6 +35,17 @@ spring-boot-starter-elasticsearch  			elasticsearch
 
 1.0.0     		      5.6.0
 
+default config：
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9200
+      scheme: http
+      maxRetryTimeoutMillis: 10000
+      socketTimeout: 10000
+      header: key:value,key2:value2
+
 Document：
 
 @Data
