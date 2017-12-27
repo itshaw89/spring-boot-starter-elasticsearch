@@ -14,11 +14,11 @@ Add the Maven dependency:
 	<dependency>
 	
     		<groupId>cn.itshaw</groupId>
-    
+		
    		<artifactId>spring-boot-starter-elasticsearch</artifactId>
-    
+		
     		<version>1.0.0</version>
-    
+		
 	</dependency>
 
 	<dependency>
