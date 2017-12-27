@@ -10,25 +10,26 @@ Maven configuration
 
 Add the Maven dependency:
 
-<dependency>
-	
-    <groupId>cn.itshaw</groupId>
-    
-    <artifactId>spring-boot-starter-elasticsearch</artifactId>
-    
-    <version>1.0.0</version>
-    
-</dependency>
 
-<dependency>
+	<dependency>
 	
-    <groupId>org.elasticsearch</groupId>
-	
-    <artifactId>elasticsearch</artifactId>
+    		<groupId>cn.itshaw</groupId>
     
-    <version>5.6.0</version>
+   		<artifactId>spring-boot-starter-elasticsearch</artifactId>
     
-</dependency>
+    		<version>1.0.0</version>
+    
+	</dependency>
+
+	<dependency>
+
+	    <groupId>org.elasticsearch</groupId>
+
+	    <artifactId>elasticsearch</artifactId>
+
+	    <version>5.6.0</version>
+
+	</dependency>
 
 version：
 
@@ -59,22 +60,22 @@ default config：
 
 Document：
 
-@Data
+	@Data
 
-@NoArgsConstructor
+	@NoArgsConstructor
 
-@AllArgsConstructor
+	@AllArgsConstructor
 
-public class Document {
+	public class Document {
 
-	@Size(max = 50)
-	private String title;
-	@NotNull
-	private String content;
+		@Size(max = 50)
+		private String title;
+		@NotNull
+		private String content;
 
-	private String url;
+		private String url;
 
-}
+	}
 
 DocumentController：
 
